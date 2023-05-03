@@ -415,6 +415,7 @@ main .block-see-all a {
 }
 
 .section--about-us .wrap .section-text .button-section-about-us {
+    background: #F3F1ED;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -473,4 +474,18 @@ footer .footer-logo .social-networks {
 
 footer .footer-logo .social-networks .network {
     padding: 0 20px;
+}
+
+main .button-about-us:hover {
+    cursor: pointer;
+    opacity: 0.75
+}
+
+main .button-about-us a button:hover {
+    cursor:pointer;
+}
+
+.button-section-about-us:hover {
+    cursor: pointer;
+    filter: brightness(95%);
 }
