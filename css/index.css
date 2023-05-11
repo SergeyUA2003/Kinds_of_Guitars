@@ -9,8 +9,13 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -492,7 +497,7 @@ main .button-about-us:hover {
 }
 
 main .button-about-us a button:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .button-section-about-us:hover {
@@ -832,9 +837,11 @@ main .button-about-us a button:hover {
     color: #001B42;
     padding: 0 20px;
 }
+
 .container_accessories .tabs h3 {
 
 }
+
 .container_accessories .tabs {
     padding: 100px 0 0 0;
     background: #F3F1ED;
