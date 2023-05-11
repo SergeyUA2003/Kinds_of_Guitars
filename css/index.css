@@ -37,6 +37,7 @@ h2 {
     font-size: clamp(32px, 72 / 1920 * 100vw, 72px);
     line-height: 128px;
     color: #743436;
+
 }
 
 h3 {
