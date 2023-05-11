@@ -39,6 +39,16 @@ h2 {
     color: #743436;
 }
 
+h3 {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(16px, 32 / 1920 * 100vw, 32px);
+    line-height: 128px;
+    color: #743436;
+    text-align: center;
+}
+
 .nav-menu {
     font-family: "Playfair Display SC", sans-serif;
     max-width: 1920px;
@@ -821,7 +831,9 @@ main .button-about-us a button:hover {
     color: #001B42;
     padding: 0 20px;
 }
+.container_accessories .tabs h3 {
 
+}
 .container_accessories .tabs {
     padding: 100px 0 0 0;
     background: #F3F1ED;
